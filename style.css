@@ -27,7 +27,7 @@ html {
   }
   .centertext{
    height: auto;
-   padding-top: 170px;
+   padding-top: 100px;
    animation: upAndDown 4s infinite;
   }
   @keyframes upAndDown {
