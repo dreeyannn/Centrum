@@ -63,7 +63,7 @@ html{
 /*Ends of Navigation Bar*/
 /*Starts of Gallery*/
 .body-gal{
-	margin-top: 50px;
+	margin-top: -20px;
 	padding-left: 10px;
 }
 @font-face{
@@ -115,3 +115,65 @@ img.hover-img{
 	opacity: 1;
 }
 /*Ends of Gallery*/
+
+/*Starts of Footer*/
+.bottom-part{
+	margin-top: -50px;
+	text-align: center;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer{
+	padding: 70px 0;
+}
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+.footer-col ul{
+	list-style: none;
+	padding: 0;
+}
+.footer-col ul li{
+	padding: 1.3px 0;
+}
+@font-face{
+    font-family: Noto_Serif;
+    src: url(font/NotoSerif-Bold.ttf);
+  }
+.footer-col h4{
+ margin-bottom: -12px;
+ text-transform: uppercase;
+ color: #ffbc42;
+ font-family: 'Noto_Serif', sans-serif;
+ letter-spacing: 1px;
+}
+.footer-col ul a{
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+   font-size: 14px;
+}
+.footer-col a:hover{
+	color: #ffbc42;
+	transition: 0.4s ease-out;
+}
+.social-link{
+	margin-top: 17px;
+	display: inline-flex;
+}
+.face{
+	padding-right: 3px;
+}
+.face a{		
+	text-decoration: none;
+}
+.insta{
+	margin-top: -3px;
+	padding-left: 3px;
+}
+.insta a{
+	text-decoration: none;
+}
