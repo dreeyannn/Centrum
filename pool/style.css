@@ -65,10 +65,13 @@ html{
     border: 1px solid #ccc;
     float: left;
     width: 400px;
+    height: 425px;
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 .desc{
 	text-align: center;
+	font-family: PatuaOne-Regular, sans-serif;
 }
